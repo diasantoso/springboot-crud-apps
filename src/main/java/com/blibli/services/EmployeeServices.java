@@ -17,7 +17,7 @@ public class EmployeeServices {
     EmployeeRepository employeeRepository;
 
     public List<Employee> showEmp() {
-        List<Employee> list = employeeRepository.findAll();
+        List<Employee> list = employeeRepository.getAllEmployee();
         return list;
     }
 
